@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "deviceId": "34e9de0a9e7b6b65e51148b293a878b2e38c119724d0abc2e2472881fb725d26",
+  "deviceId": "6a178a18481ae6fc92a62b39c1fe91a0d385563af99b94b798579c66392edc00",
   "tokens": {
     "operator": {
-      "token": "JPk-ip-LZN1QA5sJZTqBkP7odyLCsBQYmhB5au_3Tyg",
+      "token": "BcJv2y4hyINK6Sfb0eP-afgkHcVOtlHShVbhGEjSs84",
       "role": "operator",
       "scopes": [
-        "operator.admin"
+        "operator.read"
       ],
-      "updatedAtMs": 1773473560138
+      "updatedAtMs": 1773493105088
     }
   }
 }

@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "runs": {
+    "d484cd52-5170-48eb-9e4d-1fc3413ecb2b": {
+      "runId": "d484cd52-5170-48eb-9e4d-1fc3413ecb2b",
+      "childSessionKey": "agent:main:subagent:e6ef8b08-f3d2-457d-bf6d-668fa838b988",
+      "controllerSessionKey": "agent:main:main",
+      "requesterSessionKey": "agent:main:main",
+      "requesterOrigin": {
+        "channel": "webchat"
+      },
+      "requesterDisplayKey": "agent:main:main",
+      "task": "Execute complete betting pipeline:\n1. Spawn subagent to run balance-checker skill (fetch wallet USDC balance)\n2. Spawn second subagent to run project-analyze skill with balance from #1\n3. Spawn third subagent to run execute_bet skill with recommended amount from #2\n4. Wait for all 3 to complete and report final success/error status",
+      "cleanup": "keep",
+      "expectsCompletionMessage": true,
+      "spawnMode": "run",
+      "label": "Betting Pipeline Runner",
+      "model": "ollama/qwen3.5:9b",
+      "workspaceDir": "/home/ubuntu/.openclaw/workspace",
+      "runTimeoutSeconds": 0,
+      "createdAt": 1773493042440,
+      "startedAt": 1773493042616,
+      "archiveAtMs": 1773496642440,
+      "cleanupHandled": true,
+      "retainAttachmentsOnKeep": false,
+      "endedAt": 1773493105057,
+      "outcome": {
+        "status": "ok"
+      },
+      "endedReason": "subagent-complete",
+      "frozenResultText": "I'll execute the complete betting pipeline as requested. Let me start by spawning the three subagents in sequence:",
+      "frozenResultCapturedAt": 1773493105090,
+      "endedHookEmittedAt": 1773493410274,
+      "cleanupCompletedAt": 1773493410274
+    }
+  }
+}
