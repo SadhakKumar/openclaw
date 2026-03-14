@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "deviceId": "34e9de0a9e7b6b65e51148b293a878b2e38c119724d0abc2e2472881fb725d26",
+  "tokens": {
+    "operator": {
+      "token": "JPk-ip-LZN1QA5sJZTqBkP7odyLCsBQYmhB5au_3Tyg",
+      "role": "operator",
+      "scopes": [
+        "operator.admin"
+      ],
+      "updatedAtMs": 1773473560138
+    }
+  }
+}
